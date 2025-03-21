@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TableBooking"
+        tools:targetApi="31">
+        <activity
+            android:name=".rv_booking_list"
+            android:exported="false"
+            android:label="@string/title_activity_rv_booking_list" />
+        <activity
+            android:name=".activity_main4"
+            android:exported="false" />
+        <activity
+            android:name=".createtableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aboutMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feedbckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".yourprofileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mybookingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AvailableTablesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".congratuationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".contactusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".canclebookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".confirmbookingMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityyourprofile"
+            android:exported="false" />
+        <activity
+            android:name=".timeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profileMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".helpcenterMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reviewMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_signup_screen"
+            android:exported="false" />
+        <activity
+            android:name=".restaurantimageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_mainnew"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity_main3"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main2"
+            android:exported="false" />
+        <activity
+            android:name=".login_screen"
+            android:exported="false" />
+        <activity
+            android:name=".registeractivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMenuPage"
+            android:exported="false" />
+        <activity
+            android:name=".BookingListActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

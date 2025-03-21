@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1062686754208",
+    "project_id": "table-booking-fee5c",
+    "storage_bucket": "table-booking-fee5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062686754208:android:c13c5742ca4c8d0b9a50c5",
+        "android_client_info": {
+          "package_name": "com.example.tablebooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062686754208-6ovhi5ovn890tvh4olrt16o3qi2f585e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tablebooking",
+            "certificate_hash": "eb8e83c858a07714a8538e1454347ced31e61a8f"
+          }
+        },
+        {
+          "client_id": "1062686754208-0oumjmaf09tttshh7h275udupu0qbs75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_RhB8Wgu3yb1nNQghVRk5z5ZBRuo55j8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062686754208-0oumjmaf09tttshh7h275udupu0qbs75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

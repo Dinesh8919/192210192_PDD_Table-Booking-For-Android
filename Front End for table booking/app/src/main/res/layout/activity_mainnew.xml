@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style_green_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  android:orientation="vertical"
+        android:layout_centerInParent="true"  android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/dinneX_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img"
+            android:contentDescription="DinneX Logo" />
+
+        <TextView
+            android:id="@+id/dinneX_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Dinne X"
+            android:textColor="#272727"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/get_started_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Let's Get Started"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

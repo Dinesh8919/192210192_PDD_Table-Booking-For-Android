@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/style_green_gradient">
+
+    <!-- User Icon -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_11"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="19dp"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:inputType="text"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"/>
+
+    <!-- Admin Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- TextView for Signup -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t have an account?"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- Create Account Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"/>
+
+
+    <Button
+        android:id="@+id/continueWithGoogleB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue With Google"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"/>
+
+</LinearLayout>
